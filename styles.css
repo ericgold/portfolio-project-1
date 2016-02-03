@@ -74,7 +74,8 @@ header .profile-image {
   transition: all .5s;
 }
 header .profile-image:hover {
-  transform: scale(1.2) rotate(5deg);
+  transform: scale(1.2) skewY(360deg);
+  border: 5px solid #ffccff;
 }
 .tag {
   background-color: #efefef;
@@ -118,6 +119,14 @@ ul.skills {
 
 .skills li:nth-child(odd) {
   background: #ffccff;
+}
+
+.experience-image {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  display: block;
+  margin: auto;
 }
 
 footer {
